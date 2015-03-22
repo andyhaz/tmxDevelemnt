@@ -98,7 +98,7 @@ typedef enum : uint8_t {
     [circleTraget removeAllActions];
     circleTraget.position = location;
     circleTraget.alpha = 1.0;
-    NSLog(@"circleTrget x:%f y:%f",circleTraget.position.x,circleTraget.position.y);
+    //NSLog(@"circleTrget x:%f y:%f",circleTraget.position.x,circleTraget.position.y);
     
     float moveDistance = [self DistanceBetweenTwoPoints:location :mapLevelNode.position];
     NSLog(@"Distance:%f",moveDistance);
