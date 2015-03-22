@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.0" orientation="orthogonal" width="50" height="50" tilewidth="150" tileheight="150" nextobjectid="9">
+ <tileset firstgid="1" name="puffer_title_mapB" tilewidth="150" tileheight="150">
+  <image source="puffer_title_mapB.png" width="450" height="450"/>
+ </tileset>
+ <layer name="backgound" width="50" height="50">
+  <data encoding="base64" compression="zlib">
+   eJztzjENAAAMA6DWv+nZ6BIOfpqkvJGBAwAAAAAAAAAAwKID3HoJxA==
+  </data>
+ </layer>
+ <layer name="wall" width="50" height="50">
+  <data encoding="base64" compression="zlib">
+   eJzt17EKwCAMAFHx/z+6uDk4qaGXeAeOgq+gpL211ous7OlgpYOVDlY6WOlgzQM6cjuoM6eO3I7V3oz3Y7VXx70o55jb+T40w0jH/52+55UcBEsVx9zu/dARUxXHTjpYOSfqiOjV/1odsb16P1Z7ddyLco7TdLDSwUoHq2qOCusDpJcCjw==
+  </data>
+ </layer>
+ <objectgroup name="Object Layer 1">
+  <object  name="door" type="door" x="-12.0627" y="3184.56" width="422.195" height="398.07"/>
+  <object  name="gold" type="gold" x="3160.43" y="3365.5" width="856.454" height="651.387"/>
+  <object  name="path" type="path" x="591.074" y="3365.5">
+   <polyline points="0,0 506.634,-892.642 482.509,-2436.67 3401.69,-1893.85 6115.8,-482.509 6007.24,2376.36 3534.38,1821.47 3148.37,723.764"/>
+  </object>
+  <object  name="start" type="start" x="663.45" y="6079.61" width="554.885" height="446.321"/>
+  <object  name="gem" type="gem" x="4692.4" y="6465.62" width="566.948" height="446.321"/>
+ </objectgroup>
+</map>

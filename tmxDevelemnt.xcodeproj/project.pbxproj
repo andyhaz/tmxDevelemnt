@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4F0442981AB60F0B00265219 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 4F0442971AB60F0B00265219 /* Default-568h@2x.png */; };
 		4F352FC81AB20E6D00FFB903 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 4F352FC71AB20E6D00FFB903 /* main.m */; };
 		4F352FCB1AB20E6D00FFB903 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 4F352FCA1AB20E6D00FFB903 /* AppDelegate.m */; };
 		4F352FCE1AB20E6D00FFB903 /* GameScene.m in Sources */ = {isa = PBXBuildFile; fileRef = 4F352FCD1AB20E6D00FFB903 /* GameScene.m */; };
@@ -16,6 +17,15 @@
 		4F352FD81AB20E6D00FFB903 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4F352FD71AB20E6D00FFB903 /* Images.xcassets */; };
 		4F352FDB1AB20E6D00FFB903 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4F352FD91AB20E6D00FFB903 /* LaunchScreen.xib */; };
 		4F352FE71AB20E6D00FFB903 /* tmxDevelemntTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 4F352FE61AB20E6D00FFB903 /* tmxDevelemntTests.m */; };
+		4F3530141AB2106A00FFB903 /* LFCGzipUtility.m in Sources */ = {isa = PBXBuildFile; fileRef = 4F35300E1AB2106A00FFB903 /* LFCGzipUtility.m */; };
+		4F3530151AB2106A00FFB903 /* levelMap.m in Sources */ = {isa = PBXBuildFile; fileRef = 4F3530101AB2106A00FFB903 /* levelMap.m */; };
+		4F3530161AB2106A00FFB903 /* JSTileMap.m in Sources */ = {isa = PBXBuildFile; fileRef = 4F3530121AB2106A00FFB903 /* JSTileMap.m */; };
+		4F3530211AB2119300FFB903 /* libz.1.1.3.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 4F3530201AB2119300FFB903 /* libz.1.1.3.dylib */; };
+		4F3530231AB2119F00FFB903 /* SpriteKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4F3530221AB2119F00FFB903 /* SpriteKit.framework */; };
+		4F3530261AB223FD00FFB903 /* game_utils.m in Sources */ = {isa = PBXBuildFile; fileRef = 4F3530241AB223FD00FFB903 /* game_utils.m */; };
+		4F3530281AB2258A00FFB903 /* cirImage.png in Resources */ = {isa = PBXBuildFile; fileRef = 4F3530271AB2258A00FFB903 /* cirImage.png */; };
+		4FC471C61AB58C7800823189 /* level1.tmx in Resources */ = {isa = PBXBuildFile; fileRef = 4FC471C41AB58C7800823189 /* level1.tmx */; };
+		4FC471C71AB58C7800823189 /* puffer_title_mapB.png in Resources */ = {isa = PBXBuildFile; fileRef = 4FC471C51AB58C7800823189 /* puffer_title_mapB.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -29,6 +39,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		4F0442971AB60F0B00265219 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
 		4F352FC21AB20E6C00FFB903 /* tmxDevelemnt.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = tmxDevelemnt.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4F352FC61AB20E6C00FFB903 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		4F352FC71AB20E6D00FFB903 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -45,6 +56,20 @@
 		4F352FE01AB20E6D00FFB903 /* tmxDevelemntTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = tmxDevelemntTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		4F352FE51AB20E6D00FFB903 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		4F352FE61AB20E6D00FFB903 /* tmxDevelemntTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = tmxDevelemntTests.m; sourceTree = "<group>"; };
+		4F35300E1AB2106A00FFB903 /* LFCGzipUtility.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LFCGzipUtility.m; sourceTree = "<group>"; };
+		4F35300F1AB2106A00FFB903 /* LFCGzipUtility.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LFCGzipUtility.h; sourceTree = "<group>"; };
+		4F3530101AB2106A00FFB903 /* levelMap.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = levelMap.m; sourceTree = "<group>"; };
+		4F3530111AB2106A00FFB903 /* levelMap.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = levelMap.h; sourceTree = "<group>"; };
+		4F3530121AB2106A00FFB903 /* JSTileMap.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JSTileMap.m; sourceTree = "<group>"; };
+		4F3530131AB2106A00FFB903 /* JSTileMap.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JSTileMap.h; sourceTree = "<group>"; };
+		4F35301F1AB210F900FFB903 /* SKTUtils.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SKTUtils.h; sourceTree = "<group>"; };
+		4F3530201AB2119300FFB903 /* libz.1.1.3.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libz.1.1.3.dylib; path = usr/lib/libz.1.1.3.dylib; sourceTree = SDKROOT; };
+		4F3530221AB2119F00FFB903 /* SpriteKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SpriteKit.framework; path = System/Library/Frameworks/SpriteKit.framework; sourceTree = SDKROOT; };
+		4F3530241AB223FD00FFB903 /* game_utils.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = game_utils.m; sourceTree = "<group>"; };
+		4F3530251AB223FD00FFB903 /* game_utils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = game_utils.h; sourceTree = "<group>"; };
+		4F3530271AB2258A00FFB903 /* cirImage.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = cirImage.png; sourceTree = "<group>"; };
+		4FC471C41AB58C7800823189 /* level1.tmx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = level1.tmx; sourceTree = "<group>"; };
+		4FC471C51AB58C7800823189 /* puffer_title_mapB.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = puffer_title_mapB.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,6 +77,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4F3530231AB2119F00FFB903 /* SpriteKit.framework in Frameworks */,
+				4F3530211AB2119300FFB903 /* libz.1.1.3.dylib in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -68,6 +95,9 @@
 		4F352FB91AB20E6C00FFB903 = {
 			isa = PBXGroup;
 			children = (
+				4F0442971AB60F0B00265219 /* Default-568h@2x.png */,
+				4F3530221AB2119F00FFB903 /* SpriteKit.framework */,
+				4F3530201AB2119300FFB903 /* libz.1.1.3.dylib */,
 				4F352FC41AB20E6C00FFB903 /* tmxDevelemnt */,
 				4F352FE31AB20E6D00FFB903 /* tmxDevelemntTests */,
 				4F352FC31AB20E6C00FFB903 /* Products */,
@@ -86,6 +116,16 @@
 		4F352FC41AB20E6C00FFB903 /* tmxDevelemnt */ = {
 			isa = PBXGroup;
 			children = (
+				4FC471C81AB58F8500823189 /* resource */,
+				4F35301F1AB210F900FFB903 /* SKTUtils.h */,
+				4F3530251AB223FD00FFB903 /* game_utils.h */,
+				4F3530241AB223FD00FFB903 /* game_utils.m */,
+				4F3530131AB2106A00FFB903 /* JSTileMap.h */,
+				4F3530121AB2106A00FFB903 /* JSTileMap.m */,
+				4F35300F1AB2106A00FFB903 /* LFCGzipUtility.h */,
+				4F35300E1AB2106A00FFB903 /* LFCGzipUtility.m */,
+				4F3530111AB2106A00FFB903 /* levelMap.h */,
+				4F3530101AB2106A00FFB903 /* levelMap.m */,
 				4F352FC91AB20E6D00FFB903 /* AppDelegate.h */,
 				4F352FCA1AB20E6D00FFB903 /* AppDelegate.m */,
 				4F352FCC1AB20E6D00FFB903 /* GameScene.h */,
@@ -125,6 +165,16 @@
 				4F352FE51AB20E6D00FFB903 /* Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		4FC471C81AB58F8500823189 /* resource */ = {
+			isa = PBXGroup;
+			children = (
+				4F3530271AB2258A00FFB903 /* cirImage.png */,
+				4FC471C51AB58C7800823189 /* puffer_title_mapB.png */,
+				4FC471C41AB58C7800823189 /* level1.tmx */,
+			);
+			name = resource;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -176,6 +226,12 @@
 				TargetAttributes = {
 					4F352FC11AB20E6C00FFB903 = {
 						CreatedOnToolsVersion = 6.2;
+						DevelopmentTeam = 7QPZTLEJ7L;
+						SystemCapabilities = {
+							com.apple.GameCenter = {
+								enabled = 0;
+							};
+						};
 					};
 					4F352FDF1AB20E6D00FFB903 = {
 						CreatedOnToolsVersion = 6.2;
@@ -207,9 +263,13 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4FC471C61AB58C7800823189 /* level1.tmx in Resources */,
+				4F3530281AB2258A00FFB903 /* cirImage.png in Resources */,
 				4F352FDB1AB20E6D00FFB903 /* LaunchScreen.xib in Resources */,
 				4F352FD81AB20E6D00FFB903 /* Images.xcassets in Resources */,
 				4F352FD01AB20E6D00FFB903 /* GameScene.sks in Resources */,
+				4F0442981AB60F0B00265219 /* Default-568h@2x.png in Resources */,
+				4FC471C71AB58C7800823189 /* puffer_title_mapB.png in Resources */,
 				4F352FD61AB20E6D00FFB903 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -228,10 +288,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4F3530151AB2106A00FFB903 /* levelMap.m in Sources */,
+				4F3530261AB223FD00FFB903 /* game_utils.m in Sources */,
 				4F352FD31AB20E6D00FFB903 /* GameViewController.m in Sources */,
 				4F352FCB1AB20E6D00FFB903 /* AppDelegate.m in Sources */,
 				4F352FCE1AB20E6D00FFB903 /* GameScene.m in Sources */,
+				4F3530141AB2106A00FFB903 /* LFCGzipUtility.m in Sources */,
 				4F352FC81AB20E6D00FFB903 /* main.m in Sources */,
+				4F3530161AB2106A00FFB903 /* JSTileMap.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -307,7 +371,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
@@ -343,7 +407,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -355,9 +419,13 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = tmxDevelemnt/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 			};
 			name = Debug;
 		};
@@ -365,9 +433,13 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = tmxDevelemnt/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 			};
 			name = Release;
 		};
@@ -424,6 +496,7 @@
 				4F352FEC1AB20E6D00FFB903 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		4F352FED1AB20E6D00FFB903 /* Build configuration list for PBXNativeTarget "tmxDevelemntTests" */ = {
 			isa = XCConfigurationList;
@@ -432,6 +505,7 @@
 				4F352FEF1AB20E6D00FFB903 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
